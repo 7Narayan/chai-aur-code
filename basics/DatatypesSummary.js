@@ -9,7 +9,7 @@ const isLoggedIn = false
 const outsideTemp = null
 let userEmail;
 
-const id = Symbol('123')
+const id = Symbol('123')//Symbol - make something unique 
 const anotherId = Symbol('123')
 
 console.log(id === anotherId);
@@ -22,16 +22,19 @@ console.log(id === anotherId);
 
 // Array, Objects, Functions
 
-const heros = ["shaktiman", "naagraj", "doga"];
-let myObj = {
+const heros = ["shaktiman", "naagraj", "doga"];//Array
+let myObj = {//Object
     name: "hitesh",
     age: 22,
 }
 
-const myFunction = function(){
+const myFunction = function(){//Func.
     console.log("Hello world");
 }
 
-console.log(typeof anotherId);
+console.log(typeof myFunction);
+console.log(typeof myObj);
+console.log(typeof heros);
+
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
