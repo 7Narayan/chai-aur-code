@@ -70,7 +70,7 @@ const {courseInstructor: instructor} = course // using a variable
 console.log(instructor);
 
 
-// {                                                //API in form Json files
+// {                                                //API in form Json files                                         
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
 //     "price": "free"
