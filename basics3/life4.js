@@ -1,11 +1,11 @@
 // Immediately Invoked Function Expressions (IIFE)
 
 
-(function chai(){
+(function chai(){ //"func 'chai' is name of the func"
     // named IIFE
-    console.log(`DB CONNECTED`);
-})();
+    console.log(`DB CONNECTED`);// content inside the func
+})(); '() in yello color refers implementation like "func()". '
 
-( (name) => {
-    console.log(`DB CONNECTED TWO ${name}`);
-} )('hitesh')
+( (name) => {// "name" refers para of  func"
+    console.log(`DB CONNECTED TWO ${name}`);// func content
+} )('hitesh')// "   'hitesh' is the argument  "
